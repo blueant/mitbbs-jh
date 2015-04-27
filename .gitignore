@@ -1,12 +1,22 @@
+# Eclipse
+.classpath
+.project
+.settings/
+
+# Intellij
+.idea/
+*.iml
+*.iws
 *.class
 
-# Mobile Tools for Java (J2ME)
-.mtj.tmp/
+# Mac
+.DS_Store
+.metadata/*
 
-# Package Files #
-*.jar
-*.war
-*.ear
+# Maven
+log/
+target/
 
-# virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
-hs_err_pid*
+# Linux
+*.swp
+/bin
